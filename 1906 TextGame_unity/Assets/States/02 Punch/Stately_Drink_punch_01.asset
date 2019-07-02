@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7911465a0dad9d4eae044308d7c3beb, type: 3}
+  m_Name: Stately_Drink_punch_01
+  m_EditorClassIdentifier: 
+  storyText: "Smirking like he's seen it all before, \"It's a twelve faery, shared
+    bowl of punch. For folk your size, about 4 aughta do the job. Looks like folk
+    back there are ready for another.\"\n\nA buzzing, tittering, squawking, frolicking
+    mess of beautiful Faeries swarm towards the bar. Some of them have overheard and
+    address you:\n\n\"SWAFTE GLABABLABLAGAG! Zomfaglob, jas? HAHAHAHAHAHAHAHA!\"\n\n\n1.
+    \"Ah ha ha ha...\"\t\t[ Charisma check: 10  ]\n2. \"Wanna share one?\"\t[ Charisma
+    check: 20  ]\n3. \"Yes. Zomfalop, right.\"\t[ Charisma check: 15  ]"
+  WantsBartenderState: 0
+  finishedState: {fileID: 11400000, guid: 2e3967aac3318b94a95276b17a5fff77, type: 2}
+  nextStates:
+  - {fileID: 11400000, guid: 9b002ef089078354c902b2dc33a60061, type: 2}
+  - {fileID: 11400000, guid: 9b002ef089078354c902b2dc33a60061, type: 2}
+  - {fileID: 11400000, guid: 9b002ef089078354c902b2dc33a60061, type: 2}
+  image: {fileID: 21300000, guid: 538aeab5b7acaff4481156b98285e001, type: 3}

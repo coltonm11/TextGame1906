@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311912, g: 0.3807398, b: 0.3587271, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -233,6 +233,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 2113570680}
+  - {fileID: 917560102}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -285,8 +286,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 917560103}
-  startingState: {fileID: 11400000, guid: 4e9e0f1eaa0e6a64d9f99ad4582bdc74, type: 2}
   imageComponent: {fileID: 2113570681}
+  startingState: {fileID: 11400000, guid: 4e9e0f1eaa0e6a64d9f99ad4582bdc74, type: 2}
+  BarTenderState:
+  - {fileID: 11400000, guid: 9c5da8da7f70fa0478606d4dc73d5432, type: 2}
+  - {fileID: 11400000, guid: 6e21dac96f4646b4baea0d781e269a60, type: 2}
+  - {fileID: 11400000, guid: 109453f51f8fa4b4f9d90a3bcf60be1e, type: 2}
+  - {fileID: 11400000, guid: 6b013566d57042d4dad9745870da1f5a, type: 2}
+  drinkStates:
+  - {fileID: 11400000, guid: b2f5e589fe9d0c042967c4c9343173bd, type: 2}
+  - {fileID: 11400000, guid: 72b518e5394fc2e4abec6ab47fc41035, type: 2}
+  - {fileID: 11400000, guid: 81c035a74988ab24f8a39ce70514f4aa, type: 2}
+  - {fileID: 11400000, guid: 3bfc39dfba84cb94da18696edfe232c8, type: 2}
+  EndStateOne: {fileID: 11400000, guid: f1da72a0b58c2b143b385ef1e84555f9, type: 2}
+  maxDrinks: 4
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,14 +475,14 @@ RectTransform:
   m_GameObject: {fileID: 682245586}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.08474064, y: 0.34729442, z: 0.5693978}
+  m_LocalScale: {x: 0.14620303, y: 0.34729442, z: 0.5693978}
   m_Children: []
   m_Father: {fileID: 2113570680}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 20.03225, y: -2.0538511}
+  m_AnchoredPosition: {x: 19.06, y: -2.0538511}
   m_SizeDelta: {x: 323, y: 138}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &682245588
@@ -485,7 +498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.11320752, g: 0, b: 0, a: 0.8862745}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.8862745}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -536,15 +549,15 @@ RectTransform:
   m_GameObject: {fileID: 917560101}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0920806, y: 0.19861786, z: 0.16551486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2113570680}
+  m_Father: {fileID: 347671965}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19.789139, y: -2.4908412}
-  m_SizeDelta: {x: 301.47, y: 334.6}
+  m_AnchoredPosition: {x: 123.9, y: -15.642761}
+  m_SizeDelta: {x: 389.26, y: 334.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &917560103
 MonoBehaviour:
@@ -567,9 +580,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: ebba1b0a6bd55f741900f62dc92c0d3a, type: 3}
-    m_FontSize: 16
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 9380e04e3198f5c4da379e3dae6526a8, type: 3}
+    m_FontSize: 20
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
@@ -648,7 +661,6 @@ RectTransform:
   m_LocalScale: {x: 8.018598, y: 4.4609723, z: 4.4609723}
   m_Children:
   - {fileID: 682245587}
-  - {fileID: 917560102}
   m_Father: {fileID: 347671965}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

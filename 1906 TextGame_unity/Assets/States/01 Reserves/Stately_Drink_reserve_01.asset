@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7911465a0dad9d4eae044308d7c3beb, type: 3}
+  m_Name: Stately_Drink_reserve_01
+  m_EditorClassIdentifier: 
+  storyText: "The barkeep pours an amber liquid from a bottle which looks to be made
+    of chisled stone.\n\nBandit come on up and do say, \"A hard drink for hard folk\"\n\n1.
+    \"Aye. Varily.\"\t[ Charisma check: 12  ]\n2. \"Gross\"\t\t[ Charisma check: 18
+    \ ]\n3. \"Piss-off m8\"\t[ Charisma check: 05  ]"
+  WantsBartenderState: 0
+  finishedState: {fileID: 11400000, guid: 504ddadc3ea5ee3489d7066e41a6cce1, type: 2}
+  nextStates:
+  - {fileID: 11400000, guid: 303587be0f57601478686d8f095eeac7, type: 2}
+  - {fileID: 11400000, guid: 303587be0f57601478686d8f095eeac7, type: 2}
+  - {fileID: 11400000, guid: 927c8c80328a55d4aadb92f9cd5bccbe, type: 2}
+  image: {fileID: 21300000, guid: 538aeab5b7acaff4481156b98285e001, type: 3}

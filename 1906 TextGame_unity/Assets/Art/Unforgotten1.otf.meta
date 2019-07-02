@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ab2247475fec2fd49a714861b779862d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Unforgotten
+  fontNames:
+  - Unforgotten
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9380e04e3198f5c4da379e3dae6526a8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
