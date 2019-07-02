@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class TheGame : MonoBehaviour {
 
     [SerializeField] Text textComponent;
-    public Text textComponentPublicVarForStudy;
+
+    public Image imageComponent;
 
     [SerializeField] Stately startingState;
 
@@ -16,6 +17,7 @@ public class TheGame : MonoBehaviour {
     {
         currentState = startingState;
         textComponent.text = currentState.GetStory();
+        imageComponent.sprite = currentState.GetBackground();
     }
 
     private void ManageState()

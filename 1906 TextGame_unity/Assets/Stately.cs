@@ -9,7 +9,7 @@ public class Stately : ScriptableObject {
     [TextArea(14, 10)] [SerializeField] string storyText;
     [SerializeField] Stately[] nextStates;
 
-    public Material image;
+    public Sprite image;
 
     public string GetStory()
     {
@@ -19,6 +19,11 @@ public class Stately : ScriptableObject {
     public Stately[] GetNextState()
     {
         return nextStates;
+    }
+
+    public Sprite GetBackground()
+    {
+        return image;
     }
 
 }

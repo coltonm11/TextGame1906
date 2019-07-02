@@ -4,13 +4,25 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e7911465a0dad9d4eae044308d7c3beb, type: 3}
   m_Name: Stately_EnterBar
   m_EditorClassIdentifier: 
-  storyText: assssssss
+  storyText: 'More than half full and less than half loud. shiftng in seats and few
+    glasses clink.
+
+    Barkeep Old Cobb looks at ou iwth bright eyesbehind crows feet as you pony up.
+
+    "What''ll it be?"
+
+    1. bannered
+
+    2. fae one
+
+    3.  marsh'
   nextStates: []
   image: {fileID: 0}
