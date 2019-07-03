@@ -8,7 +8,9 @@ public class Stately : ScriptableObject {
 
     [TextArea(14, 10)] [SerializeField] string storyText;
 
-    [SerializeField] public bool WantsBartenderState;
+    [TextArea(14, 10)] [SerializeField] string choiceText;
+
+    [SerializeField] public bool callsBartender;
 
     [SerializeField] public Stately finishedState;
 
@@ -22,7 +24,7 @@ public class Stately : ScriptableObject {
         return storyText;
     }
 
-    public Stately[] GetNextState()
+    public Stately[] GetAvailableStates()
     {
         return nextStates;
     }

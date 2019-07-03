@@ -285,21 +285,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45f139270f2cfd940b6b469de9f83932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxDrinks: 4
   textComponent: {fileID: 917560103}
   imageComponent: {fileID: 2113570681}
   startingState: {fileID: 11400000, guid: 4e9e0f1eaa0e6a64d9f99ad4582bdc74, type: 2}
-  BarTenderState:
+  EndStateOne: {fileID: 11400000, guid: f1da72a0b58c2b143b385ef1e84555f9, type: 2}
+  mainChoicesText:
   - {fileID: 11400000, guid: 9c5da8da7f70fa0478606d4dc73d5432, type: 2}
   - {fileID: 11400000, guid: 6e21dac96f4646b4baea0d781e269a60, type: 2}
   - {fileID: 11400000, guid: 109453f51f8fa4b4f9d90a3bcf60be1e, type: 2}
   - {fileID: 11400000, guid: 6b013566d57042d4dad9745870da1f5a, type: 2}
-  drinkStates:
+  mainStates:
   - {fileID: 11400000, guid: b2f5e589fe9d0c042967c4c9343173bd, type: 2}
   - {fileID: 11400000, guid: 72b518e5394fc2e4abec6ab47fc41035, type: 2}
   - {fileID: 11400000, guid: 81c035a74988ab24f8a39ce70514f4aa, type: 2}
   - {fileID: 11400000, guid: 3bfc39dfba84cb94da18696edfe232c8, type: 2}
-  EndStateOne: {fileID: 11400000, guid: f1da72a0b58c2b143b385ef1e84555f9, type: 2}
-  maxDrinks: 4
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,7 +572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9292453, g: 0.97988194, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -580,8 +580,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 9380e04e3198f5c4da379e3dae6526a8, type: 3}
-    m_FontSize: 20
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1

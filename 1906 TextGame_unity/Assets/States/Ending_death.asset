@@ -15,8 +15,9 @@ MonoBehaviour:
   storyText: 'You''re dead kid.
 
 
-    Don''t this play again.'
-  WantsBartenderState: 0
+    Don''t play this again.'
+  choiceText: 
+  callsBartender: 0
   finishedState: {fileID: 0}
   nextStates: []
   image: {fileID: 21300000, guid: 538aeab5b7acaff4481156b98285e001, type: 3}

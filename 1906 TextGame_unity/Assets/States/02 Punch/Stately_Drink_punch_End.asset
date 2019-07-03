@@ -15,7 +15,8 @@ MonoBehaviour:
   storyText: 'Cobb mixes up another sickl- sweet, irridecent glass.
 
     You get a cavity.'
-  WantsBartenderState: 1
+  choiceText: 
+  callsBartender: 1
   finishedState: {fileID: 0}
   nextStates: []
   image: {fileID: 21300000, guid: 538aeab5b7acaff4481156b98285e001, type: 3}

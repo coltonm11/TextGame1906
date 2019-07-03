@@ -23,7 +23,8 @@ MonoBehaviour:
 
     The beverage is boggy, but not all that awful. The salty aftertaste is disconcerting
     though.'
-  WantsBartenderState: 1
+  choiceText: 
+  callsBartender: 1
   finishedState: {fileID: 0}
   nextStates:
   - {fileID: 0}
