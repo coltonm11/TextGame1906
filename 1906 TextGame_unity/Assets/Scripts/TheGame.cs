@@ -98,19 +98,12 @@ public class TheGame : MonoBehaviour {
 
         else if (currentState.callsBartender)
         {
-            textComponent.text = currentState.GetStory() + GetBartenderText(numberOfDrinks);
+            textComponent.text = currentState.GetStory() + mainChoicesText[numberOfDrinks].GetBarkeepText();
+            numberOfDrinks += 1;
         }
 
         imageComponent.sprite = currentState.GetBackground();
 
-    }
-
-    public string GetBartenderText(int i)
-    {
-        numberOfDrinks += 1;
-        print("Got bartender story at :" + i);
-        print("No. of drinks is now: " + numberOfDrinks);
-        return mainChoicesText[i].GetBarkeepText();
     }
 
 }
