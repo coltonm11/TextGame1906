@@ -19,9 +19,14 @@ public class Stately : ScriptableObject {
     [SerializeField] Sprite image;
 
 
-    public string GetStory()
+    public string GetStoryText()
     {
         return storyText;
+    }
+
+    public string GetChoiceText()
+    {
+        return choiceText;
     }
 
     public Stately[] GetAvailableStates()

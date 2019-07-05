@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ab0f721e8ae9204abec5e61c6942b4f, type: 3}
   m_Name: BarKeep_02
   m_EditorClassIdentifier: 
-  BarkeepText: '
-
-    "What''s next my friend?"
+  BarkeepText: '"What''s next my friend?"
 
 
     1. Shtonebeard Resherve

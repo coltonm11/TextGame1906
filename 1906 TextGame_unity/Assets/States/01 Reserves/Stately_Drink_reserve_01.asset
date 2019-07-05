@@ -12,11 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7911465a0dad9d4eae044308d7c3beb, type: 3}
   m_Name: Stately_Drink_reserve_01
   m_EditorClassIdentifier: 
-  storyText: "The barkeep pours an amber liquid from a bottle which looks to be made
-    of chisled stone.\n\nBandit come on up and do say, \"A hard drink for hard folk\"\n\n1.
-    \"Aye. Varily.\"\t[ Charisma check: 12  ]\n2. \"Gross\"\t\t[ Charisma check: 18
-    \ ]\n3. \"Piss-off m8\"\t[ Charisma check: 05  ]"
-  WantsBartenderState: 0
+  storyText: 'The barkeep pours an amber liquid from a bottle which looks to be made
+    of chisled stone.
+
+
+    Bandit come on up and do say, "A hard drink for hard folk"
+
+
+'
+  choiceText: "1. \"Aye. Varily.\"\t[ Charisma check: 12  ]\n2. \"Gross\"\t\t[ Charisma
+    check: 18  ]\n3. \"Piss-off m8\"\t[ Charisma check: 05  ]"
+  callsBartender: 0
   finishedState: {fileID: 11400000, guid: 504ddadc3ea5ee3489d7066e41a6cce1, type: 2}
   nextStates:
   - {fileID: 11400000, guid: 303587be0f57601478686d8f095eeac7, type: 2}

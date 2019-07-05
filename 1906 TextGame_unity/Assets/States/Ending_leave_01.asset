@@ -19,8 +19,9 @@ MonoBehaviour:
     We''ll be expecting you back before long."
 
 
-    1. Continue'
-  WantsBartenderState: 0
+'
+  choiceText: 1. Continue
+  callsBartender: 0
   finishedState: {fileID: 0}
   nextStates:
   - {fileID: 11400000, guid: a03e9154f80ebcd4e9398eac5a5e9151, type: 2}

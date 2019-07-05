@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ab0f721e8ae9204abec5e61c6942b4f, type: 3}
   m_Name: BarKeep_04
   m_EditorClassIdentifier: 
-  BarkeepText: "\n\"One more aught to do it, right?\"\n\n1. Fuiuckin, uuuh hoarsh
-    onme plxz \n2. A kunk-pumnsh cup\n3. Ghlizzard'sh Snashbrewq"
+  BarkeepText: "\"One more aught to do it, right?\"\n\n1. Fuiuckin, uuuh hoarsh onme
+    plxz \n2. A kunk-pumnsh cup\n3. Ghlizzard'sh Snashbrewq"

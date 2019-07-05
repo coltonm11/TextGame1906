@@ -8,7 +8,8 @@ public class TheGame : MonoBehaviour {
     [SerializeField] int maxDrinks;
 
     [SerializeField] Text textComponent;
-    [SerializeField] Image imageComponent;
+    [SerializeField] Text choicesTextComponent;
+    [SerializeField] Image backgroundImageComponent;
     [SerializeField] Stately startingState;
     [SerializeField] Stately EndStateOne;
 
@@ -27,9 +28,9 @@ public class TheGame : MonoBehaviour {
         currentState = startingState;
         secondaryStates = currentState.GetAvailableStates();
         numberOfChoicesAvailable = secondaryStates.Length;
-        textComponent.text = currentState.GetStory();
-        imageComponent.sprite = currentState.GetBackground();
+        backgroundImageComponent.sprite = currentState.GetBackground();
         numberOfDrinks = 0;
+        UpdateStory();
     }
 
     private void OnGUI()
@@ -93,16 +94,18 @@ public class TheGame : MonoBehaviour {
 
         if (!currentState.callsBartender)
         {
-            textComponent.text = currentState.GetStory();
+            textComponent.text = currentState.GetStoryText();
+            choicesTextComponent.text = currentState.GetChoiceText();
         }
 
         else if (currentState.callsBartender)
         {
-            textComponent.text = currentState.GetStory() + mainChoicesText[numberOfDrinks].GetBarkeepText();
+            textComponent.text = currentState.GetStoryText();
+            choicesTextComponent.text = mainChoicesText[numberOfDrinks].GetBarkeepText();
             numberOfDrinks += 1;
         }
 
-        imageComponent.sprite = currentState.GetBackground();
+        backgroundImageComponent.sprite = currentState.GetBackground();
 
     }
 

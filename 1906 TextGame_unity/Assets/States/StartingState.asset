@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: StartingState
   m_EditorClassIdentifier: 
   storyText: "Ivy vines great you at the gardened entrance to the Tired Boar: a tavern
-    with an old story and older bones. \nA place way before your time, and way after.\n\n1.
-    Enter the Tired Boar"
+    with an old story and older bones. \nA place way before your time, and way after.\n\n"
+  choiceText: '1. Enter the Tired Boar
+
+
+    hint: press 1 on the keyboard.'
+  callsBartender: 0
+  finishedState: {fileID: 0}
   nextStates:
   - {fileID: 11400000, guid: bd7afd48b6573954fa6076aa7a1e3106, type: 2}
   image: {fileID: 21300000, guid: cab2222277abaf549a49dd6c28e5f8f6, type: 3}

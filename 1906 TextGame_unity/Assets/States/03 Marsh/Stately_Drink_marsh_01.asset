@@ -19,15 +19,13 @@ MonoBehaviour:
     of a becloaked Frog Boy.
 
 
-    "Khssssssssssssss," says Frog Boy.
-
-
-    1. go away
+    "Khssssssssssssss," says Frog Boy.'
+  choiceText: '1. go away
 
     2. hail cthulu
 
     3. can I help you?'
-  WantsBartenderState: 0
+  callsBartender: 0
   finishedState: {fileID: 11400000, guid: a0e68a13f06a3e842bee48c0d2a6dde7, type: 2}
   nextStates:
   - {fileID: 11400000, guid: a02f2b3188bf9b34c89288e033ba9a64, type: 2}
